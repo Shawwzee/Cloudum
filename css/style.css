@@ -1,0 +1,95 @@
+/* GENERAL */
+
+#main-nav li {
+ color: white;
+}
+
+/* HOME PAGE */
+
+#home-section {
+    background: url(../img/pexels-photo-840996.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+    background-position-y: -100px;
+}
+#cards-section .fas {
+    font-size: 60px;
+}
+.devices img {
+    border: none;
+    border-radius: 15px;
+}
+.access img {
+    border: none;
+    border-radius: 15px;
+}
+.home-inner {
+    padding-top: 250px;
+}
+
+
+
+/* CONTACT US PAGE */
+
+#home-section-contact {
+    background: url(../img/contactus.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+    background-position-y: -70px;
+}
+.waystocontact .fas {
+    font-size: 60px;
+}
+#signin {
+    font-size: 24px;
+}
+
+/* PLANS AND PRICING PAGE */
+
+#home-section-priceplans {
+    background: url(../img/priceplans.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+    background-position-y: -70px;
+}
+#brands img {
+    height: 100px;
+    opacity: 0.5;
+}
+#brands img:hover {
+    opacity: 1;
+}
+#plansinfo .card {
+    border-radius: 8px !important;
+}
+
+/* MEDIA QUERIES FOR HOME */
+@media (max-width: 768px) {
+    #home-section {
+        background-position-y: 0px;
+        min-height: 500px;
+    }
+    #cards-section .card {
+        margin-bottom: 20px;
+    }
+    #cards-section .fas {
+        font-size: 40px;
+    }
+    .home-inner {
+        padding-top: 150px;
+    }
+}
+@media (max-width: 550px) {
+    #home-section {
+        background-position-x: -150px;
+        background-position-y: 0px;
+        min-height: 500px;
+    }
+    #home-section-contact {
+        min-height: 500px;
+        background-position-y: -50px;
+    }
+}
